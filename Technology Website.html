@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:purple;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+        nav a:hover{
+        color:yellow;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius:10px;
+
+        }
+        button:hover{
+            background:green;
+            border:1px solid black;
+            transition-duration:1s;
+        }
+        .technologies {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .technology-item {
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .blog {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .blog-item {
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Technology Hub</h1>
+    </header>
+
+    <nav>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="home">Home</a>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="about">About</a>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="services">Services</a>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="team">Team</a>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="technologies">Technologies</a>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="blog">Blog</a>
+        <a href="file:///C:/Users/sgous/OneDrive/Desktop/tech%20website.html#" id="contact">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to our Technology Website!</h2>
+        <p>This is a simple example showcasing HTML, CSS, and JavaScript.</p>
+        <button onclick="showMessage()">Click me</button>
+    </section>
+
+    <section>
+        <h2>Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Mobile App Development</li>
+            <li>Data Science Solutions</li>
+            <li>Cloud Computing</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Latest Articles</h2>
+        <article>
+            <h3>How to Get Started with Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+        </article>
+        <article>
+            <h3>The Future of Artificial Intelligence</h3>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Team</h2>
+        <p>Meet our awesome team of experts:</p>
+        <ul>
+            <li>John Doe - CEO</li>
+            <li>Jane Smith - CTO</li>
+            <li>Bob Johnson - Lead Developer</li>
+            <!-- Add more team members as needed -->
+        </ul>
+    </section>
+
+    <section id="technologies">
+        <h2>Technologies We Use</h2>
+        <div class="technologies">
+            <div class="technology-item">
+                <h3>HTML5</h3>
+                <p>HyperText Markup Language</p>
+            </div>
+            <div class="technology-item">
+                <h3>CSS3</h3>
+                <p>Cascading Style Sheets</p>
+            </div>
+            <div class="technology-item">
+                <h3>JavaScript</h3>
+                <p>Programming Language for the Web</p>
+            </div>
+            <div class="technology-item">
+                <h3>React</h3>
+                <p>JavaScript Library for Building User Interfaces</p>
+            </div>
+            <div class="technology-item">
+                <h3>Node.js</h3>
+                <p>JavaScript Runtime Environment</p>
+            </div>
+            <div class="technology-item">
+                <h3>Python</h3>
+                <p>Programming Language for Various Applications</p>
+            </div>
+            <!-- Add more technologies as needed -->
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog">
+            <div class="blog-item">
+                <h3>10 Tips for Effective Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            </div>
+            <div class="blog-item">
+                <h3>The Power of Data Visualization</h3>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+            <div class="blog-item">
+                <h3>Introduction to Machine Learning</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <!-- Add more blog items as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required="">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required="">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required=""></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Technology Hub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Hello! Welcome to our Technology Website!");
+        }
+    </script>
+<!--
+--></body></html>
